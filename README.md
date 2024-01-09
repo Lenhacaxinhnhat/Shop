@@ -68,7 +68,7 @@ local Fighting Styles = Tabs.Shop:AddSection("Fighting Styles")
       "Scrap Metal","Leather","Angel Wings","Magma Ore","Fish Tail"
     }
 
-local DropdownMaterial = Tabs.Sub:AddDropdown("DropdownMaterial", {
+local DropdownMaterial = Tabs.Shop:AddDropdown("DropdownMaterial", {
     Title = "Select Marterial To Farm",
     Values = MaterialList,
     Multi = false,
